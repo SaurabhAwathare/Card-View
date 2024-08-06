@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CardView</string>
+    <string name="what_is_cardview">What is CardView?</string>
+    <string name="purpose_cardview_is_used_to_create_a_consistent_and_flexible_ui_pattern_that_resembles_a_card_with_rounded_corners_and_shadow_effects_compatibility_it_s_part_of_the_androidx_library_and_is_compatible_with_devices_running_android_5_0_api_level_21_and_higher">Purpose: CardView is used to create a consistent and flexible UI pattern that resembles a card, with rounded corners and shadow effects. Compatibility: It\'s part of the AndroidX library and is compatible with devices running Android 5.0 (API level 21) and higher.</string>
+</resources>

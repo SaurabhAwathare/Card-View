@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardView"
+        android:layout_width="340dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/what_is_cardview" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/purpose_cardview_is_used_to_create_a_consistent_and_flexible_ui_pattern_that_resembles_a_card_with_rounded_corners_and_shadow_effects_compatibility_it_s_part_of_the_androidx_library_and_is_compatible_with_devices_running_android_5_0_api_level_21_and_higher" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
